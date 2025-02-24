@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#097969"/>
+  
+  <!-- Abstract sphere backdrop -->
+  <circle cx="400" cy="200" r="150" fill="#086656" opacity="0.5"/>
+  <circle cx="420" cy="180" r="140" fill="#0a8a74" opacity="0.4"/>
+  
+  <!-- Style text with proper case -->
+  <g transform="translate(180, 170)">
+    <!-- Shadow Layers -->
+    <path d="M0,0 L280,0 L270,80 L-10,80 Z" fill="#064d44" transform="translate(8, 8)"/>
+    <path d="M0,0 L280,0 L270,80 L-10,80 Z" fill="#075950" transform="translate(4, 4)"/>
+    <!-- Main Text Layer -->
+    <path d="M0,0 L280,0 L270,80 L-10,80 Z" fill="#ffffff"/>
+    
+    <text x="30" y="60" 
+          font-family="Arial Black, Arial, sans-serif" 
+          font-size="72" 
+          font-weight="900"
+          fill="#097969"
+          style="letter-spacing: 2px;">
+      Style
+    </text>
+  </g>
+  
+  <!-- Sphere text with proper case -->
+  <g transform="translate(240, 230)">
+    <!-- Shadow Layers -->
+    <path d="M0,0 L320,0 L310,80 L-10,80 Z" fill="#064d44" transform="translate(8, 8)"/>
+    <path d="M0,0 L320,0 L310,80 L-10,80 Z" fill="#075950" transform="translate(4, 4)"/>
+    <!-- Main Text Layer -->
+    <path d="M0,0 L320,0 L310,80 L-10,80 Z" fill="#ffffff"/>
+    
+    <text x="20" y="60" 
+          font-family="Arial Black, Arial, sans-serif" 
+          font-size="72" 
+          font-weight="900"
+          fill="#097969"
+          style="letter-spacing: 4px;">
+      Sphere
+    </text>
+  </g>
+  
+  <!-- Dynamic Elements -->
+  <g opacity="0.8">
+    <!-- Orbital Rings -->
+    <ellipse cx="400" cy="200" rx="180" ry="40" 
+             stroke="#ffffff" stroke-width="2" fill="none" 
+             transform="rotate(-15, 400, 200)"/>
+    <ellipse cx="400" cy="200" rx="190" ry="45" 
+             stroke="#ffffff" stroke-width="1" fill="none" 
+             transform="rotate(15, 400, 200)"/>
+  </g>
+  
+  <!-- Highlight Effects -->
+  <circle cx="350" cy="150" r="10" fill="#ffffff" opacity="0.8"/>
+  <circle cx="370" cy="130" r="6" fill="#ffffff" opacity="0.6"/>
+  <circle cx="330" cy="170" r="8" fill="#ffffff" opacity="0.7"/>
+  
+  <!-- Dynamic Lines -->
+  <path d="M100,50 L700,350" stroke="#ffffff" stroke-width="1" opacity="0.3"/>
+  <path d="M700,50 L100,350" stroke="#ffffff" stroke-width="1" opacity="0.3"/>
+</svg>

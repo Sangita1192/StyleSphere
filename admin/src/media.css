@@ -1,0 +1,55 @@
+@media only screen and (min-width:200px) and (max-width:576px){
+   
+    .banner_content> button{
+        width:50%;
+    }
+    .banner{
+        width:80%;
+        top:10%;
+
+    }
+    .banner h1{
+        font-size:22px;
+        line-height: 40px;
+      }
+}
+@media only screen and (min-width:576px) and (max-width:767px){
+   
+    .banner_content> button{
+        width:50%;
+    }
+    .banner{
+        width:80%;
+        top:10%;
+    }
+    .banner h1{
+        font-size:40px;
+        line-height: 40px;
+      }
+}
+@media only screen and (min-width:767px) and (max-width:992px){
+    .banner{
+        width:70%;
+        top:20%;
+    }
+    .banner h1{
+        font-size:55px;
+        line-height: 70px;
+      }
+}
+    
+@media only screen and (min-width:992px) and (max-width:1200px){
+    .banner{
+        top:20%;
+    }
+    .banner h1{
+        font-size:55px;
+        line-height: 70px;
+      }
+}
+@media only screen and (min-width:1200px) and (max-width:1400px){
+       
+}
+@media only screen and (min-width:1400px) {
+    
+}

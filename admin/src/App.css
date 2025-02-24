@@ -1,0 +1,138 @@
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+/* Seasons CSS */
+
+.slick-next {
+  right: 35px !important;
+  z-index: 5;
+}
+.slick-prev {
+  left: 20px !important;
+  z-index: 5;
+}
+
+.slick-next::before
+{
+  color:black !important;
+  font-size: 33px !important;
+}
+.slick-prev::before{
+  
+  font-size: 33px !important;
+  color:black !important;
+  opacity:1 !important;
+}
+
+/* Season CSS end */
+
+.banner{
+    top:30%;
+    color:white;
+}
+.banner h1{
+  font-family: 'CircularStd', sans-serif;
+  font-size:65px;
+  line-height: 80px;
+}
+.banner button{
+  width:150px;
+}
+.sale-sublist{
+  top:116% !important;
+  left:0px;
+  opacity:0;
+  visibility: hidden;
+  transition:0.5s;
+}
+.sale-sublist ul>li{
+  padding:5px 0px;
+}
+.sale-sublist:hover{
+  opacity:1;
+  visibility:visible;
+}
+.shifted-img{
+  margin-bottom:-20%;
+  transform:translateY(-20%);
+}
+.sublist-text{
+  bottom:0;
+  left:20px;
+}
+.nav-item:hover{
+  text-decoration: underline;
+}
+.nav-item:hover .sale-sublist{
+  opacity:1;
+  visibility:visible;
+}
+.trench{
+  width:97%;
+  margin:auto;
+}
+.trench-img{
+  transform: translateY(-15%); 
+  margin-bottom:-15%;
+  width:80%;
+}
+
+
+.better-living{
+  width:95%;
+}
+.better-living>.col-5>h1{
+  font-size:50px;
+  font-weight: normal;
+}
+.better-living>.col-5>h2{
+  font-size:30px;
+  text-decoration: underline;
+}
+.better-living-text{
+  bottom:3%;
+  left:7%;
+}
+.footer{
+  width:92%;
+  margin:auto;
+  margin-bottom:40px;
+}
+.footer ul li{
+  font-size:14px;
+  margin:12px 0px;
+}
+
+
+/* Admin-Panel CSS */
+.admin{
+  min-height:100vh;
+}
+.admin label,
+.admin input{
+  margin:10px 0px;
+}
+.adm-navbar{
+  background-color: #212631;
+  min-height: 100vh;
+}
+.adm-navbar ul{
+  width:100%;
+}
+.adm-navbar ul li{
+  width:100%;
+  padding:10px 20px;
+  display:flex;
+  justify-content: space-between;
+
+
+}
+
